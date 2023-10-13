@@ -1,5 +1,11 @@
-% EEGLAB history file generated on the 09-Jun-2020
-% ------------------------------------------------
+% ----------------------------------------------
+% Script Name: GA_cleaning.m
+% Author: Julio Medeiros
+% Email: juliomedeiros@dei.uc.pt
+% Institution: University of Coimbra (UC), Centre for Informatics and Systems of the University of Coimbra (UC)
+% Date: 10/09/2023
+% Description: This script is used to preprocess Gradient Artifact (GA) from the EEG data using EEGLAB.
+% ----------------------------------------------
 
 EEG.etc.eeglabvers = '14.1.2'; % this tracks which version of EEGLAB is being used, you may ignore it
 timer_container=[];
