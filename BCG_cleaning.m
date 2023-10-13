@@ -1,6 +1,8 @@
 % ----------------------------------------------
 % Script Name: BCG_cleaning.m
 % Author: Julio Medeiros
+% Email: juliomedeiros@dei.uc.pt
+% Institution: University of Coimbra (UC), Centre for Informatics and Systems of the University of Coimbra (UC)
 % Date: 10/09/2023
 % Description: This script is used to preprocess BCG from the EEG data using EEGLAB.
 % ----------------------------------------------
@@ -34,9 +36,6 @@ for i = 1:length(files)
     EEG = eeg_checkset(EEG);
     EEG = pop_fmrib_pas(EEG, 'qrs', 'obs', 3);
     EEG = eeg_checkset(EEG);
-
-    % Modify EEG data if needed (e.g., add ECG data)
-    % EEG.data(64, :) = ECG;
 
     % Set a new name for the EEG dataset
     EEG.setname = strcat(filename(1:end-4), '_BCG');
