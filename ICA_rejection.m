@@ -1,3 +1,12 @@
+% ----------------------------------------------
+% Script Name: BCG_cleaning.m
+% Author: Julio Medeiros
+% Email: juliomedeiros@dei.uc.pt
+% Institution: University of Coimbra (UC), Centre for Informatics and Systems of the University of Coimbra (UC)
+% Date: 10/09/2023
+% Description: This script is used to preprocess the EEG data using EEGLAB.
+% ----------------------------------------------
+
 clear all; close all; clc
 addpath 'C:\Users\JulioMedeiros\Desktop\Study1_EEG\eeglab14_1_2b'
 
