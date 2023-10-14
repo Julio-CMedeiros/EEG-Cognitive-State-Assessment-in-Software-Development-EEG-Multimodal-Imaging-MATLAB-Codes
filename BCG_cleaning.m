@@ -24,7 +24,7 @@ cd('C:\Users\JulioMedeiros\Desktop\analysis\importfiles\triggers\GA\1000QRS\')
 files = dir('*.set');
 
 % ----------------------------------------------
-% Loop through each EEG data file for processing
+% Loop through each EEG data file for preprocessing
 % ----------------------------------------------
 for i = 1:length(files)
     filename = files(i).name;
