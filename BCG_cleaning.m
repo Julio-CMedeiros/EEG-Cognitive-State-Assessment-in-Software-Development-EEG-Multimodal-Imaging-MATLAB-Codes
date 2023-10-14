@@ -37,7 +37,7 @@ for i = 1:length(files)
     EEG = pop_fmrib_pas(EEG, 'qrs', 'obs', 3);
     EEG = eeg_checkset(EEG);
 
-    % Set a new name for the EEG dataset
+    % Update file name
     EEG.setname = strcat(filename(1:end-4), '_BCG');
 
     % Save the preprocessed EEG data
