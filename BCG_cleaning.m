@@ -4,7 +4,7 @@
 % Email: juliomedeiros@dei.uc.pt
 % Institution: University of Coimbra (UC), Centre for Informatics and Systems of the University of Coimbra (UC)
 % Date: 10/09/2023
-% Description: This script is used to preprocess Ballistocardiogram (BCG) from the EEG data using EEGLAB.
+% Description: This script is used to preprocess Ballistocardiogram (BCG) from the EEG data using EEGLAB using EEGLAB with the FMRIB Plug-in.
 % ----------------------------------------------
 
 % ----------------------------------------------
