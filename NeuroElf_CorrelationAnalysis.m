@@ -15,11 +15,6 @@ load('C:\Users\JulioMedeiros\Desktop\dataset_ALL_hrf_and_features.mat')
 load('C:\Users\JulioMedeiros\Desktop\feature_name_and_idx.mat')
 
 % Configuration
-clear, clc, close all;
-load('C:\Users\JulioMedeiros\Desktop\dataset_ALL_hrf_and_features.mat')
-load('C:\Users\JulioMedeiros\Desktop\feature_name_and_idx.mat')
-
-% Settings Structure
 configs = struct();
 
 tasks={'cruz1','codigobug','cruz2','codigoneutro','cruz3','texto'};
