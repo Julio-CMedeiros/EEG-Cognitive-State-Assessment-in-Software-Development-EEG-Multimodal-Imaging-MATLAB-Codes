@@ -25,7 +25,7 @@ files = dir('*.set');
 dbstop in pause
 
 % Loop through EEG data files for processing
-for i = 44:length(files)
+for i = 1:length(files)
     i
     tic
     
